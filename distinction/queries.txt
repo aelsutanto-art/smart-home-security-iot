@@ -1,0 +1,23 @@
+Latency query
+Select /ecs/smart-home-processor in the CloudWatch console.
+Baseline UTC: 2026-09-29 08:40:00 to 08:45:00.
+Scaled UTC:   2026-09-29 08:45:00 to 08:55:00.
+Keep the console-generated SOURCE and time selection if present.
+
+fields @timestamp, @message
+| filter @message like /^Processed /
+| filter @message like /motion/
+| parse @message /latency (?<latencyMs>\d+) ms/
+| stats count(*) as processed,
+        avg(latencyMs) as averageLatencyMs,
+        pct(latencyMs, 95) as p95LatencyMs,
+        max(latencyMs) as maximumLatencyMs
+
+Worker distribution query for the scaled time range
+
+fields @message
+| filter @message like /^Processed /
+| filter @message like /motion/
+| parse @message /worker (?<workerId>\S+)/
+| stats count(*) as processed by workerId
+| sort processed desc

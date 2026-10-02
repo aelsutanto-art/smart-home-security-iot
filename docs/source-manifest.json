@@ -1,0 +1,164 @@
+[
+  {
+    "file": "distinction/processor.js",
+    "sha256": "e3229cea1d869567c20f9d82217444012f131c7341d1d62457cef4b01d666a6d",
+    "source_archive": "project_source.zip",
+    "change": "Byte-identical to submission archive"
+  },
+  {
+    "file": "distinction/mqtt_to_sqs.js",
+    "sha256": "7dcf176917f3b1981e1649198acf8f8577cc15e518ff2059cc21c3f68a68c8e8",
+    "source_archive": "project_source.zip",
+    "change": "Byte-identical to submission archive"
+  },
+  {
+    "file": "distinction/load_test.js",
+    "sha256": "09f4025905c696c6406d9902e9e7eddd6092f59a63e0cb63da2a8733b6ccd413",
+    "source_archive": "project_source.zip",
+    "change": "Byte-identical to submission archive"
+  },
+  {
+    "file": "distinction/door_sensor.js",
+    "sha256": "31bc787ed32fc993f25059ba89aa522ae29bf2022091656072ad7d10bc3929dc",
+    "source_archive": "project_source.zip",
+    "change": "Byte-identical to submission archive"
+  },
+  {
+    "file": "distinction/motion_sensor.js",
+    "sha256": "bbbd74cf157506079a8247cfdee6be1d2251e543f1e6efce81ff37c2b9199811",
+    "source_archive": "project_source.zip",
+    "change": "Byte-identical to submission archive"
+  },
+  {
+    "file": "distinction/smoke_sensor.js",
+    "sha256": "d76d68882cd8c43cc9d6b50fad1f2ac60ed1b2d719ae0344be2012df9b37d275",
+    "source_archive": "project_source.zip",
+    "change": "Byte-identical to submission archive"
+  },
+  {
+    "file": "distinction/Dockerfile",
+    "sha256": "bb4108157e70ec505c5b8e48250748a46386af464eefa4a72a6d397dd3fda7a5",
+    "source_archive": "project_source.zip",
+    "change": "Byte-identical to submission archive"
+  },
+  {
+    "file": "distinction/.dockerignore",
+    "sha256": "9689a6d00193316b46b70f5490ec873a618fe05cd7c553cb3dd62100bd501dfa",
+    "source_archive": "project_source.zip",
+    "change": "Byte-identical to submission archive"
+  },
+  {
+    "file": "distinction/package.json",
+    "sha256": "9a7ac2d130d7e3f10801d19498742a1f9357071826d3ad32fa1a54a26efe1888",
+    "source_archive": "project_source.zip",
+    "change": "Byte-identical to submission archive"
+  },
+  {
+    "file": "distinction/task-definition.json",
+    "sha256": "bcb393a1b625da9154bd9ca61f04efa96b5505192e3d884a1cb4ec5dc5fa1012",
+    "source_archive": "project_source.zip",
+    "change": "Account number replaced with ACCOUNT_ID and JSON formatting normalised"
+  },
+  {
+    "file": "distinction/package-lock.json",
+    "sha256": "ad8839269364a27d66818f0a8ec68ac84c8f746411fca629e1ad9ff2e01d595d",
+    "source_archive": "project_source.zip",
+    "change": "Byte-identical to submission archive"
+  },
+  {
+    "file": "distinction/.env.example",
+    "sha256": "e7ce888dbc455df37d62b5e71e693b3d977458749c81c3f39d09f9a524a8875e",
+    "source_archive": "project_source.zip",
+    "change": "Byte-identical to submission archive"
+  },
+  {
+    "file": "distinction/queries.txt",
+    "sha256": "de19bc692345f40659eb82822c071fd079f37bef2d12285986bee38f2a4846a0",
+    "source_archive": "project_source.zip",
+    "change": "Byte-identical to submission archive"
+  },
+  {
+    "file": "high-distinction/hd_policy.js",
+    "sha256": "2a578468d23d34df9818bbcdb6c997c2285f7341a1fd4376e3be9aba2b3da129",
+    "source_archive": "HD_source_and_evidence.zip",
+    "change": "Byte-identical to submission archive"
+  },
+  {
+    "file": "high-distinction/hd_controller.js",
+    "sha256": "872c6fe9a8ece48159e4702107bc222520143c46929d3b10343628c0eedb9ced",
+    "source_archive": "HD_source_and_evidence.zip",
+    "change": "Byte-identical to submission archive"
+  },
+  {
+    "file": "high-distinction/hd_common.js",
+    "sha256": "473acc1de435c3b3d7910d3d33fcb5e9a35a4b76ef721f7430f25d3c9b955a5e",
+    "source_archive": "HD_source_and_evidence.zip",
+    "change": "Byte-identical to submission archive"
+  },
+  {
+    "file": "high-distinction/hd_load_test.js",
+    "sha256": "4816cff63ecd9d784de7559b71081ec82a665069dbcf06653f3e829696b6fbeb",
+    "source_archive": "HD_source_and_evidence.zip",
+    "change": "Byte-identical to submission archive"
+  },
+  {
+    "file": "high-distinction/hd_bridge.js",
+    "sha256": "45c75c9cb14a4a1eead9dc583d8af6de49edefd8b53a49454a492728fb3fbc90",
+    "source_archive": "HD_source_and_evidence.zip",
+    "change": "Byte-identical to submission archive"
+  },
+  {
+    "file": "high-distinction/processor.js",
+    "sha256": "c8a94f6c2838ee90b68c7eacd5d9ab6f2106a1519dabc0c3e367cd4d4d781d96",
+    "source_archive": "HD_source_and_evidence.zip",
+    "change": "Byte-identical to submission archive"
+  },
+  {
+    "file": "high-distinction/hd_policy.test.js",
+    "sha256": "23bb09269a09a950931394e949db83d9c5e27dabadb853dec3ba418156bd9dc9",
+    "source_archive": "HD_source_and_evidence.zip",
+    "change": "Byte-identical to submission archive"
+  },
+  {
+    "file": "high-distinction/hd_processor.test.js",
+    "sha256": "dce46a11802e0bf15db0f5d36aed48119c68f2d9a613f6ab48fd764f9987efd1",
+    "source_archive": "HD_source_and_evidence.zip",
+    "change": "Byte-identical to submission archive"
+  },
+  {
+    "file": "high-distinction/Dockerfile",
+    "sha256": "3c31d47553887fa7f20df50ec48ce1e359c874f45800950207dd2f05e6ec8d1a",
+    "source_archive": "HD_source_and_evidence.zip",
+    "change": "Byte-identical to submission archive"
+  },
+  {
+    "file": "high-distinction/.dockerignore",
+    "sha256": "603e497c1a624898f706932166b991464f07b578f19f230f7c1861c2c6ac8781",
+    "source_archive": "HD_source_and_evidence.zip",
+    "change": "Byte-identical to submission archive"
+  },
+  {
+    "file": "high-distinction/package.json",
+    "sha256": "9a7ac2d130d7e3f10801d19498742a1f9357071826d3ad32fa1a54a26efe1888",
+    "source_archive": "HD_source_and_evidence.zip",
+    "change": "Byte-identical to submission archive"
+  },
+  {
+    "file": "high-distinction/task-definition-hd.json",
+    "sha256": "5a2c6079a3c45c33f9a3c7e3093093ce1d63052ae4f9b4d2b0de07ee0e00205b",
+    "source_archive": "HD_source_and_evidence.zip",
+    "change": "Account number replaced with ACCOUNT_ID and JSON formatting normalised"
+  },
+  {
+    "file": "high-distinction/package-lock.json",
+    "sha256": "ad8839269364a27d66818f0a8ec68ac84c8f746411fca629e1ad9ff2e01d595d",
+    "source_archive": "HD_source_and_evidence.zip",
+    "change": "Byte-identical to submission archive"
+  },
+  {
+    "file": "high-distinction/.env.example",
+    "sha256": "f01f1abef7d56cd0290f4ccf55c6acb26faf6f6f6b51bebf307bee5755559e7f",
+    "source_archive": "HD_source_and_evidence.zip",
+    "change": "Byte-identical to submission archive"
+  }
+]

@@ -1,0 +1,56 @@
+{
+  "taskRoleArn": "arn:aws:iam::ACCOUNT_ID:role/LabRole",
+  "executionRoleArn": "arn:aws:iam::ACCOUNT_ID:role/LabRole",
+  "networkMode": "awsvpc",
+  "containerDefinitions": [
+    {
+      "name": "processor",
+      "image": "ACCOUNT_ID.dkr.ecr.us-east-1.amazonaws.com/smart-home-processor@sha256:154db23fbdf656099b37aa7a64a67da83372b229e98c56c739ab8936aed60481",
+      "cpu": 0,
+      "portMappings": [],
+      "essential": true,
+      "environment": [
+        {
+          "name": "PROCESSING_DELAY_MS",
+          "value": "200"
+        },
+        {
+          "name": "AWS_REGION",
+          "value": "us-east-1"
+        },
+        {
+          "name": "EVENTS_QUEUE_URL",
+          "value": "https://sqs.us-east-1.amazonaws.com/ACCOUNT_ID/smart-home-security-events"
+        },
+        {
+          "name": "RESULTS_QUEUE_URL",
+          "value": "https://sqs.us-east-1.amazonaws.com/ACCOUNT_ID/smart-home-security-results"
+        }
+      ],
+      "mountPoints": [],
+      "volumesFrom": [],
+      "logConfiguration": {
+        "logDriver": "awslogs",
+        "options": {
+          "awslogs-group": "/ecs/smart-home-processor",
+          "awslogs-region": "us-east-1",
+          "awslogs-stream-prefix": "ecs"
+        }
+      },
+      "systemControls": [],
+      "stopTimeout": 60
+    }
+  ],
+  "volumes": [],
+  "placementConstraints": [],
+  "requiresCompatibilities": [
+    "FARGATE"
+  ],
+  "cpu": "256",
+  "memory": "512",
+  "runtimePlatform": {
+    "cpuArchitecture": "X86_64",
+    "operatingSystemFamily": "LINUX"
+  },
+  "family": "smart-home-processor-hd"
+}

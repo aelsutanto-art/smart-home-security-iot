@@ -1,0 +1,17 @@
+{
+  "name": "smart_home_security",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@aws-sdk/client-sqs": "^3.1142.0",
+    "dotenv": "^18.0.4",
+    "mqtt": "^5.15.2"
+  }
+}
